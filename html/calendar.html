@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Learning Hub 2.0 - Calendar</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../styles/styles.css" />
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="nav-inner">
+                <a href="index.html" class="nav-brand">Learning Hub 2.0 <span>BCIT</span></a>
+
+                <input type="checkbox" id="nav-check" class="nav-check" />
+                <label for="nav-check" class="nav-toggle">Menu</label>
+
+                <nav aria-label="Main navigation">
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+
+                        <li class="has-sub">
+                            <a href="class.html">Classes</a>
+                            <ul class="sub-menu">
+                                <li><a href="class.html">ACIT 1420 - System Admin</a></li>
+                                <li><a href="class.html">ACIT 1515 - Scripting for IT</a></li>
+                                <li><a href="class.html">ACIT 1620 - Web Tech</a></li>
+                                <li><a href="class.html">ACIT 1630 - Database</a></li>
+                                <li><a href="class.html">COMM 1116 - Business Comm</a></li>
+                                <li><a href="class.html">ORGB 1100 - Org Behaviour</a></li>
+                                <li><a href="class.html">MATH 1310 - Tech Math</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-sub current">
+                            <a href="calendar.html">Calendar</a>
+                            <ul class="sub-menu">
+                                <li><a href="index.html#week">Weekly view</a></li>
+                                <li><a href="calendar.html">Month view</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="grades.html">Grades</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <section class="hero">
+                    <h1>October calendar</h1>
+                    <p>
+                        Month view with assignments and quizzes from all of your
+                        classes. Color coded by type.
+                    </p>
+                </section>
+
+                <section class="card">
+                    <div class="month-grid" aria-label="Month calendar">
+                       
+                        <div class="month-day-label">Mon</div>
+                        <div class="month-day-label">Tue</div>
+                        <div class="month-day-label">Wed</div>
+                        <div class="month-day-label">Thu</div>
+                        <div class="month-day-label">Fri</div>
+                        <div class="month-day-label">Sat</div>
+                        <div class="month-day-label">Sun</div>
+
+                       
+                        <div class="month-cell">
+                            <span class="month-date">1</span>
+                            <span class="month-item hw">ACIT 1420 Reading: File Systems</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">2</span>
+                            <span class="month-item quiz">COMM 1116 Quiz 1: Email Etiquette</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">3</span>
+                            <span class="month-item project">ACIT 1515 Script Project Setup</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">4</span>
+                            <span class="month-item hw">ACIT 1620 Lab 3 Due: Flexbox</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">5</span>
+                            <span class="month-item quiz">MATH 1310 Quiz: Linear Functions</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">6</span>
+                            <span class="month-item project">ACIT 1630 ER Diagram Draft</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">7</span>
+                            <span class="month-item hw">ORGB 1100 Team Reflection</span>
+                        </div>
+
+                       
+                        <div class="month-cell">
+                            <span class="month-date">8</span>
+                            <span class="month-item quiz">ACIT 1620 Quiz 2: Semantic HTML</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">9</span>
+                            <span class="month-item project">COMM 1116 Presentation Outline</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">10</span>
+                            <span class="month-item hw">ACIT 1420 Lab: Linux Commands</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">11</span>
+                            <span class="month-item quiz">ACIT 1515 Quiz: Variables & Loops</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">12</span>
+                            <span class="month-item project">ORGB 1100 Case Study Prep</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">13</span>
+                            <span class="month-item hw">MATH 1310 Homework Set 4</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">14</span>
+                            <span class="month-item quiz">ACIT 1630 Quiz: SELECT Queries</span>
+                        </div>
+
+                      
+                        <div class="month-cell">
+                            <span class="month-date">15</span>
+                            <span class="month-item project">ACIT 1620 Wireframe Project</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">16</span>
+                            <span class="month-item hw">COMM 1116 Draft Email Assignment</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">17</span>
+                            <span class="month-item quiz">MATH 1310 Quiz: Polynomials</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">18</span>
+                            <span class="month-item hw">ACIT 1515 Lab 4: Functions</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">19</span>
+                            <span class="month-item project">ACIT 1420 Midterm Prep Module</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">20</span>
+                            <span class="month-item quiz">ORGB 1100 Quiz: Motivation Theory</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">21</span>
+                            <span class="month-item project">ACIT 1630 Project ER Revision</span>
+                        </div>
+
+                   
+                        <div class="month-cell">
+                            <span class="month-date">22</span>
+                            <span class="month-item hw">ACIT 1620 CSS Grid Exercise</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">23</span>
+                            <span class="month-item quiz">COMM 1116 Listening Skills Quiz</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">24</span>
+                            <span class="month-item project">ACIT 1515 Mini Automation Script</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">25</span>
+                            <span class="month-item hw">ACIT 1420 Group Discussion Post</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">26</span>
+                            <span class="month-item project">ORGB 1100 Group Assignment Draft</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">27</span>
+                            <span class="month-item quiz">ACIT 1630 Quiz: JOIN Queries</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">28</span>
+                            <span class="month-item quiz">MATH 1310 Quiz: Quadratics</span>
+                        </div>
+
+                   
+                        <div class="month-cell">
+                            <span class="month-date">29</span>
+                            <span class="month-item project">COMM 1116 Final Presentation Prep</span>
+                        </div>
+                        <div class="month-cell">
+                            <span class="month-date">30</span>
+                            <span class="month-item hw">ACIT 1620 Final Website Polishing</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <p>Calendar · Learning Hub 2.0 prototype</p>
+        </footer>
+    </body>
+</html>

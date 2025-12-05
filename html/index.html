@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Learning Hub 2.0 Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../styles/styles.css" />
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="nav-inner">
+                <a href="index.html" class="nav-brand">Learning Hub 2.0 <span>BCIT</span></a>
+                <input type="checkbox" id="nav-check" class="nav-check" />
+                <label for="nav-check" class="nav-toggle">Menu</label>
+                <nav aria-label="Main navigation">
+                    <ul class="nav-menu">
+                        <li class="current">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="has-sub">
+                            <a href="class.html">Classes</a>
+                            <ul class="sub-menu">
+                                <li><a href="class.html">ACIT 1420 System Admin</a></li>
+                                <li><a href="class.html">ACIT 1515 Scripting for IT</a></li>
+                                <li><a href="class.html">ACIT 1620 Web Tech</a></li>
+                                <li><a href="class.html">ACIT 1630 Database</a></li>
+                                <li><a href="class.html">COMM 1116 Business Comm</a></li>
+                                <li><a href="class.html">ORGB 1100 Org Behaviour</a></li>
+                                <li><a href="class.html">MATH 1310 Tech Math</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub">
+                            <a href="calendar.html">Calendar</a>
+                            <ul class="sub-menu">
+                                <li><a href="#week">Weekly view</a></li>
+                                <li><a href="calendar.html">Month view</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="grades.html">Grades</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <section class="hero" aria-labelledby="home-heading">
+                    <h1 id="home-heading">Welcome to BCIT learning hub 2.0!</h1>
+                    <p>
+                        A more simple and efficient site for student navigation. BCIT courses,
+                        grades, and deadlines.
+                    </p>
+                </section>
+
+                <section class="home-main" aria-label="Dashboard">
+                    <div class="home-left">
+                        <section class="card" aria-labelledby="classes-heading">
+                            <h2 id="classes-heading">Your 2025 Fall Classes</h2>
+                            <div class="class-grid">
+                                <article class="class-item">
+                                    <h3 class="class-item-title">ACIT 1420 <p class="grade-good">88%</p></h3>
+                                    <p>System Administration 1420 · Manage operating systems and users.</p>
+                                    <p><span class="badge">Lab 3 graded.</span></p>
+                                    <p><a href="class.html" class="btn">Open class</a></p>
+                                </article>
+
+                                <article class="class-item">
+                                    <h3 class="class-item-title">ACIT 1515<p class="grade-ok">80%</p></h3>
+                                    <p>Scripting for IT 1515 · Automate tasks with scripts.</p>
+                                    <p><span class="badge">Lab due Friday</span></p>
+                                    <p><a href="class.html" class="btn">Open class</a></p>
+                                </article>
+
+                                <article class="class-item">
+                                    <h3 class="class-item-title">ACIT 1620<p class="grade-good">94%</p></h3>
+                                    <p>Fundamental Web Technologies 1620 · Build responsive web pages.</p>
+                                    <p><span class="badge">Project 1 due tmr</span></p>
+                                    <p><a href="class.html" class="btn">Open class</a></p>
+                                </article>
+
+                                <article class="class-item">
+                                    <h3 class="class-item-title">ACIT 1630<p class="grade-ok">83%</p></h3>
+                                    <p>Database Systems 1630 · Design tables and write SQL.</p>
+                                    <p><span class="badge">Quiz next class</span></p>
+                                    <p><a href="class.html" class="btn">Open class</a></p>
+                                </article>
+
+                                <article class="class-item">
+                                    <h3 class="class-item-title">COMM 1116<p class="grade-good">93%</p></h3>
+                                    <p>Business Communications 1116 · Write and present professionally.</p>
+                                    <p><span class="badge">Presentation soon</span></p>
+                                    <p><a href="class.html" class="btn">Work graded</a></p>
+                                </article>
+
+                                <article class="class-item">
+                                    <h3 class="class-item-title">ORGB 1100<p class="grade-ok">82%</p></h3>
+                                    <p>Organizational Behaviour 1100 · Teams, motivation, leadership.</p>
+                                    <p><span class="badge">Essay due Sunday</span></p>
+                                    <p><a href="class.html" class="btn">Open class</a></p>
+                                </article>
+
+                                <article class="class-item">
+                                    <h3 class="class-item-title">MATH 1310<p class="grade-low">69%</p></h3>
+                                    <p>Technical Math 1310 · Math skills for computing.</p>
+                                    <p><span class="badge">Quiz Monday</span></p>
+                                    <p><a href="class.html" class="btn">Open class</a></p>
+                                </article>
+                            </div>
+                        </section>
+                    </div>
+
+                    <aside class="home-right" aria-label="Grades and reminders">
+                        <section class="card" aria-labelledby="recent-grades-heading">
+                            <h2 id="recent-grades-heading">Recent grades</h2>
+                            <ul class="list">
+                                <li>
+                                    <strong>ACIT 1620 Lab 2</strong><br />
+                                    <span class="grade-good">18/20</span> · Layout &amp; semantics
+                                </li>
+                                <li>
+                                    <strong>ACIT 1515 Script 3</strong><br />
+                                    <span class="grade-ok">15/20</span> · Off-by-one fixed
+                                </li>
+                                <li>
+                                    <strong>ORGB 1100 Participation</strong><br />
+                                    <span class="grade-good">10/10</span> · Case discussion
+                                </li>
+                            </ul>
+                        </section>
+
+                        <section class="card" aria-labelledby="upcoming-heading">
+                            <h2 id="upcoming-heading">Upcoming due dates</h2>
+                            <ul class="list">
+                                <li>
+                                    <strong>Thu:</strong> ACIT 1620 Wireframe upload
+                                </li>
+                                <li>
+                                    <strong>Fri:</strong> MATH 1310 Quiz 2
+                                </li>
+                                <li>
+                                    <strong>Sun:</strong> ACIT 1630 ER diagram draft
+                                </li>
+                            </ul>
+                        </section>
+                    </aside>
+                </section>
+
+                <section class="card" id="week" aria-labelledby="week-heading">
+                    <h2 id="week-heading">This week at a glance</h2>
+                    <div class="week-grid" aria-label="Weekly calendar">
+                        <div class="week-day">Mon</div>
+                        <div class="week-day">Tue</div>
+                        <div class="week-day">Wed</div>
+                        <div class="week-day">Thu</div>
+                        <div class="week-day">Fri</div>
+                        <div class="week-day">Sat</div>
+                        <div class="week-day">Sun</div>
+
+                        <div class="week-cell">
+                            <span class="week-date">1</span>
+                        </div>
+                        <div class="week-cell">
+                            <span class="week-date">2</span>
+                            <span class="week-label">MATH quiz</span>
+                        </div>
+                        <div class="week-cell">
+                            <span class="week-date">3</span>
+                        </div>
+                        <div class="week-cell">
+                            <span class="week-date">4</span>
+                            <span class="week-label">COMM talk</span>
+                        </div>
+                        <div class="week-cell">
+                            <span class="week-date">5</span>
+                            <span class="week-label">1620 lab</span>
+                        </div>
+                        <div class="week-cell">
+                            <span class="week-date">6</span>
+                        </div>
+                        <div class="week-cell">
+                            <span class="week-date">7</span>
+                            <span class="week-label">1515 script</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <p>ACIT 1620 · Learning Hub 2.0 prototype</p>
+        </footer>
+    </body>
+</html>

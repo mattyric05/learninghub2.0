@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Learning Hub 2.0 - Feedback</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../styles/styles.css" />
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="nav-inner">
+                <a href="index.html" class="nav-brand">Learning Hub 2.0 <span>BCIT</span></a>
+
+                <input type="checkbox" id="nav-check" class="nav-check" />
+                <label for="nav-check" class="nav-toggle">Menu</label>
+
+                <nav aria-label="Main navigation">
+                    <ul class="nav-menu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li class="has-sub">
+                            <a href="class.html">Classes</a>
+                            <ul class="sub-menu">
+                                <li><a href="class.html">ACIT 1420 - System Admin</a></li>
+                                <li><a href="class.html">ACIT 1515 - Scripting for IT</a></li>
+                                <li><a href="class.html">ACIT 1620 - Web Tech</a></li>
+                                <li><a href="class.html">ACIT 1630 - Database</a></li>
+                                <li><a href="class.html">COMM 1116 - Business Comm</a></li>
+                                <li><a href="class.html">ORGB 1100 - Org Behaviour</a></li>
+                                <li><a href="class.html">MATH 1310 - Tech Math</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-sub">
+                            <a href="calendar.html">Calendar</a>
+                            <ul class="sub-menu">
+                                <li><a href="index.html#week">Weekly view</a></li>
+                                <li><a href="calendar.html">Month view</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="grades.html">Grades</a>
+                        </li>
+                        <li>
+                            <a href="resources.html">Resources</a>
+                        </li>
+                        <li class="current">
+                            <a href="feedback.html">Feedback</a>
+                        </li>
+                        <li>
+                            <a href="profile.html">Profile</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="container feedback-page">
+                <section class="hero">
+                    <h1>Feedback</h1>
+                    <p>Share your thoughts about this Learning Hub 2.0 design.</p>
+                </section>
+
+                <section class="card">
+                    <form action="thankyou.html" method="get">
+                        <div class="form-row">
+                            <label for="name">Name</label>
+                            <input id="name" name="name" type="text" />
+                        </div>
+
+                        <div class="form-row">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="email" />
+                        </div>
+
+                        <div class="form-row">
+                            <label for="role">I am a...</label>
+                            <select id="role" name="role">
+                                <option value="">-- Select --</option>
+                                <option value="student">Student</option>
+                                <option value="teacher">Teacher</option>
+                            </select>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="thoughts">Thoughts</label>
+                            <textarea id="thoughts" name="thoughts"></textarea>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="questions">Questions</label>
+                            <textarea id="questions" name="questions"></textarea>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="recommendations">Recommendations</label>
+                            <textarea id="recommendations" name="recommendations"></textarea>
+                        </div>
+
+                        <button type="submit">Send feedback</button>
+                    </form>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <p>Feedback · Learning Hub 2.0 prototype</p>
+        </footer>
+    </body>
+</html>
